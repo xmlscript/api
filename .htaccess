@@ -1,0 +1,13 @@
+setEnv APPID wx000000000000000
+setEnv SECRET sldfjlsdjfldjsfljdlsfjldsf
+
+BrowserMatch MicroMessenger/ wx
+
+Header append Access-Control-Allow-Origin httpd
+#Header set Access-Control-Allow-Headers content-type
+Header set Access-Control-Max-Age 7200
+Header set Access-Control-Allow-Credentials true
+
+ErrorDocument 404 404
+#AddDefaultCharset utf-8
+#DefaultType application/json

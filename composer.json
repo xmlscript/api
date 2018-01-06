@@ -1,0 +1,16 @@
+{
+    "name": "xmlscript/api",
+    "description": "一个假想的api模板",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xmlscript",
+            "email": "xmlscript@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "^7.1"
+    }
+}
